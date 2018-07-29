@@ -1,0 +1,63 @@
+body{
+  background: url(test.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+@media(max-width: 575px){
+  body{
+    background: red;
+    height: 100vh;
+
+  }
+
+}
+@media(min-width: 576px) and (max-width: 767px){
+  body{
+    background: blue;
+    height: 100vh;
+
+  }
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+  body{
+    background: black;
+    height: 100vh;
+
+  }
+
+}
+
+@media(min-width: 992px) and (max-width:1199px){
+  body{
+    background: green;
+    height: 100vh;
+
+  }
+
+}
+
+@media(min-width: 1200px){
+  body{
+    background: blue;
+    height: 100vh;
+
+  }
+
+}
+
+.sexy{
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 75px;
+  letter-spacing: -0.01em;
+  line-height: 1.2em;
+  font-family: 'Pangolin', cursive;
+}
+
+.oh{
+height: 90px;
+width:150px;
+}
